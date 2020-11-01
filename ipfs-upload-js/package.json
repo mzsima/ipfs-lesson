@@ -1,0 +1,24 @@
+{
+  "name": "ipfs-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html --public-url '.'",
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "ipfs-http-client": "^47.0.0"
+  },
+  "devDependencies": {
+    "ipfs": "^0.50.1",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "browserslist": [
+    "last 2 versions and not dead and > 2%"
+  ],
+  "author": "",
+  "license": "ISC"
+}
